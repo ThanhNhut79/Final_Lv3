@@ -17,7 +17,7 @@ function MovieDetail({ movie, onClose }) {
             <p>Năm phát hành: {movie.year}</p>
           </div>
           <div>
-            <p>Tóm tắt: {movie.introduce}</p>
+            <p> {movie.introduce}</p>
           </div>
           <div>
             <button className="btn-play">
